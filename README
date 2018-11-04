@@ -1,0 +1,37 @@
+ecalcu 0.1
+Electrical Calculator
+ 
+./configure
+make 
+sudo make install
+make clean
+
+Ejm:
+
+ohm(p,v,i,r) only two values.
+
+ohm(0,220,6,0)
+
+Return
+
+P=1320.000000 W.
+V=220.000000 V.
+I=6.000000 A.
+R=36.666667 Ohms.
+        1320
+        
+awg(20)
+
+Return
+
+Copper awg(20):
+  Diameter in inches:                         0.031961 in
+  Diameter in millimeters:                    0.811821 mm
+  Cross sectional area in kilo circular mils: 1.021535 kcmil
+  Cross sectional area in square inches:      0.000802 in^2
+  Cross sectional area in square millimeters: 0.517619 mm^2
+  Resistence per 1000 feet:                   10.128217 ohm/kft
+  Resistence per 1000 meters:                 33.229058 ohm/km
+  Results 68 grades F or 20 grades C
+  Results may change with real wires.
+Return diameter 0.03196145553
